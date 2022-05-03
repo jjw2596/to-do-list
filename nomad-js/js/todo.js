@@ -60,6 +60,7 @@ function handleToDoSubmit(event){
 }
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
+/* submit 이벤트리스너를 추가, submit이 발생할 때 handleToDoSubmit 함수를 호출 */
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
 if(savedToDos !== null){
